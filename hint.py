@@ -5,7 +5,7 @@ from telebot.types import ReplyKeyboardMarkup, InlineKeyboardMarkup, KeyboardBut
 bot = telebot.TeleBot('6684103620:AAEnEcxbTqVPiRi0Z73ajGMoSSA0ao5tglg')
 
 
-@bot.message_handler(commands=['start', 'help']) #@ -
+@bot.message_handler(commands=['start', 'help']) #@ -ghjhg
 def start_command(message):
     user_name = message.chat.first_name  # имя пользователя
     user_id = message.chat.id
